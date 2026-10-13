@@ -83,7 +83,3 @@ Enter `y` at the continue prompt to calculate again. Any other answer exits.
 - Grade-school multiplication takes O(n × m) digit operations for n- and m-digit numbers.
 - Division and modulus use long division with repeated subtraction to find each quotient digit.
 - Power uses repeated multiplication for clarity, so it is not optimized for large exponents.
-
-## Limitations
-
-The input buffers in `main.c` accept operands up to 4095 characters. Although the exponent limit is 10000, a large base or exponent can require substantial time and memory. These algorithms favor readability for learning over performance.
