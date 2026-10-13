@@ -24,9 +24,9 @@ Negative operands are supported. The exponent for `^` must be a non-negative int
 Each linked-list node stores one decimal digit and links to the previous and next nodes. The head is the most significant digit, and the tail is the least significant digit. For example, `5072` is stored like this:
 
 ```text
-head                                      tail
-  |                                         |
-  v                                         v
+head                    tail
+ |                       |
+ v                       v
 [5] <-> [0] <-> [7] <-> [2]
 ```
 
