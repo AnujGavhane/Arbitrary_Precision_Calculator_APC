@@ -1,10 +1,5 @@
-# Compiled program
 apc
-
-# Object files
 *.o
-
-# Debug builds or core dumps
 *.out
 core
 core.*
